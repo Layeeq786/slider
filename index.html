@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeFlix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Primeflix logo.png" type="image/x-icon">
+</head>
+<body>
+    <div >
+        <img   src="./Primeflix logo.png" alt="logo" class="img" >
+    </div> 
+    <div class="logo">
+        
+
+        <audio  id="audio"  hidden autoplay>
+            <source  type="audio/mp3" src="./Netflix-Intro-Sound-Effect.mp3">
+        </audio>
+        
+        <video width="1250" height="500"  autoplay muted loop id="logo" >
+            <source src="./PF logo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-container">
+            <!--Random data will come here-->
+            <img class="gallery-item gallery-item-1" src="./images/12 fail.jpg" data-index = "1">
+            <img class="gallery-item gallery-item-2" src="./images/Age of ultron.jpg" data-index = "2">
+            <img class="gallery-item gallery-item-3" src="./images/Aquaman.jpg" data-index = "3">
+            <img class="gallery-item gallery-item-4" src="./images/End Game.jpeg" data-index = "4">
+            <img class="gallery-item gallery-item-5" src="./images/Flash.jpg" data-index = "5">
+            <!-- <img class="gallery-item gallery-item-6" src="./images/Infinity war.jpg" data-index = "6"> -->
+            <!-- <img class="gallery-item gallery-item-7" src="./images/justice league.jpg" data-index = "7">
+            <img class="gallery-item gallery-item-8" src="./images/kgf.jpg" data-index = "8">
+            <img class="gallery-item gallery-item-9" src="./images/kgf2.jpg" data-index = "9">
+            <img class="gallery-item gallery-item-10" src="./images/salaar.jpg" data-index = "10">
+            <img class="gallery-item gallery-item-11" src="./images/The Avengers.jpg" data-index = "11"> -->
+        </div>
+       <div class="gallery-controls"></div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
